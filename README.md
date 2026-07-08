@@ -1,7 +1,8 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-* The problem in this project was related to a fictional company called Northstar Medical Group. They are a fast growing company who delegated their identity Lifecycle workflow to a third-party MSP. In the early stages everything was alright. As the company grew the issues began to show. They had NO RBAC policy in place. Users were assigned access AD-HOC. There was NO Audit trails and HIPPA Risks.
+* Northstar Medical Group, a rapidly growing healthcare organization, relied on a third-party Managed Service Provider (MSP) to manage its identity lifecycle processes. While this approach met the company's initial needs, rapid expansion exposed significant weaknesses in its Identity and Access Management (IAM) program. User accounts and permissions were provisioned on an ad hoc basis without a formal Role-Based Access Control (RBAC) model, resulting in inconsistent access assignments and excessive privileges. Additionally, the organization lacked centralized audit trails and effective access governance, making it difficult to monitor user activity, demonstrate compliance, and satisfy HIPAA security requirements. These gaps increased the risk of unauthorized access, compliance violations, and operational inefficiencies, highlighting the need for a structured IAM solution with automated identity lifecycle management, RBAC, and comprehensive auditing.
+
 
 ## Solution Overview
 * The solution was to build a basic employee onboarding pipeline in active directory. I set up the RBAC ,matrix and ensured users were given access ONLY according to their role. I also simulated a mock ticket where a user was provisioned the incorrect level of access. I was able to correct the issue and assigned the individual to their respectable department.
