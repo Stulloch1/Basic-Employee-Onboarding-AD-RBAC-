@@ -5,7 +5,8 @@
 
 
 ## Solution Overview
-* The solution was to build a basic employee onboarding pipeline in active directory. I set up the RBAC ,matrix and ensured users were given access ONLY according to their role. I also simulated a mock ticket where a user was provisioned the incorrect level of access. I was able to correct the issue and assigned the individual to their respectable department.
+* To solve these issues, I built a basic employee onboarding process in Active Directory and created a Role-Based Access Control (RBAC) matrix to ensure employees received the correct access based on their job roles. Instead of assigning permissions manually, users were placed into the appropriate security groups to provide consistent and secure access. I also simulated a help desk ticket where an employee was accidentally given the wrong level of access. After reviewing the request, I removed the unnecessary permissions and assigned the user to the correct department and security groups, demonstrating proper user provisioning, access management, and the principle of least privilege.
+
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
