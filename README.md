@@ -4,7 +4,7 @@
 * The problem in this project was related to a fictional company called Northstar Medical Group. They are a fast growing company who delegated their identity Lifecycle workflow to a third-party MSP. In the begining this was fine. As the company grew the issues began to show. They had NO RBAC policy in place. Users were assigned access AD-HOC. There was NO Audit trails and HIPPA Risks.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* The solution was to build a basic employee onboarding pipeline in active directory. I set up the RBAC ,atrix and ensured users were given access ONLY according to their role. I also simulated a mock ticket where a user was provisioned the incorrect level of access.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
