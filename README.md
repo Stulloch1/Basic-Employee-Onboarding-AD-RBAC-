@@ -9,7 +9,7 @@
 
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+* https://www.loom.com/share/d41a7ab5671b4e8f9093028e98b25095
 
 ## Tools Used
 * Windows Server
